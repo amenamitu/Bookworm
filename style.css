@@ -16,7 +16,7 @@ body{
     padding-left:10%;
 }
  .header{
-  
+     margin-top: 6em;
     position: sticky;
     top:0;
 } 
@@ -49,7 +49,7 @@ body{
     display: inline-block;
     padding-right: 14%;
 
-} 
+}
 .nav ul li :hover{
     color:lightseagreen;
 } 
@@ -79,6 +79,79 @@ body{
     align-items: center;
     gap:5px
 }
+.author-identity ul li:hover{
+    color: lightseagreen;
+}
 div h1:hover{
    color: lightseagreen; 
+}
+/* banner section style end */
+/* card section start */
+.card{
+    margin-top: 90px;
+    display: flex;
+}
+.card-image img{
+    width:456px;
+    height: 236px;
+    border-radius: 10px;
+}
+.card div h2{
+    font-size: 40px;
+}
+.card div h3{
+    font-size: 35px;
+}
+.card div ul li:hover{
+    color:lightseagreen;
+}
+
+.card div h2:hover{
+    color: lightseagreen;
+}
+.card div h3:hover{
+    color: lightseagreen;
+}
+/* card section end */
+/* footer section start */
+footer{
+    background-color: rgb(21, 32,53);
+    padding: 40px;
+    margin-top: 30px;
+}
+footer ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: gray;
+}
+footer ul li a:hover{
+    color:white;
+}
+footer p{
+    margin-top:50px;
+    text-align: center;
+    color:white;
+}
+.para{
+    margin-top: 30px;
+}
+.para a{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 7px;
+}
+.para a i{
+    color: white;
+    font-size: 20px;
+}
+.para a i:hover{
+    color: lightseagreen;
 }
